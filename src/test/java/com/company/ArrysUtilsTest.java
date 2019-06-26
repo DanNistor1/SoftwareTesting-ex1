@@ -24,9 +24,9 @@ public class ArrysUtilsTest {
     @Test
     public void binarySearchTest_elementNotExist(){
         int[] array = {1,3,5,7,9,10};
-        int n=5;
+        int n=6;
         int result = arraysUtils.binarySearch(array,n);
-        Assert.assertEquals(2,result);
+        Assert.assertEquals(-4,result);
     }
 
     @Test
